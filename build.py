@@ -3,8 +3,6 @@ https://www.npmjs.com/package/html-styles
 """
 import requests
 
-tags = html_styles
-
 # download file
 page = requests.get("https://raw.githubusercontent.com/marionebl/html-styles/master/index.json")
 data = page.json()
