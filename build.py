@@ -1,10 +1,7 @@
 """
 https://www.npmjs.com/package/html-styles
 """
-from bs4 import BeautifulSoup
 import requests
-from HtmlStyles import html_styles
-import tinycss2
 
 tags = html_styles
 

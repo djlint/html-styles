@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "html-styles"
-version = "0.1.0"
+version = "0.1.1"
 description = "List of HTML tag default styles."
 authors = ["Christopher Pickering <cpickering@rhc.net>"]
 license="GPL-3.0-or-later"
