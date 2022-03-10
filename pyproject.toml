@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "html-styles"
+version = "0.1.0"
+description = "List of HTML tag default styles."
+authors = ["Christopher Pickering <cpickering@rhc.net>"]
+license="GPL-3.0-or-later"
+readme="readme.md"
+repository="https://github.com/Riverside-Healthcare/html-styles"
+packages = [
+    { include = "HtmlStyles" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+bs4 = "^0.0.1"
+black = "^22.1.0"
+requests = "^2.27.1"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
