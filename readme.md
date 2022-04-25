@@ -1,21 +1,35 @@
-# HtmlStyles
+<h1 align="center">HTML Styles</h1>
 
-Python port of npm package [html-styles](https://www.npmjs.com/package/html-styles).
+<h4 align="center">List of known HTML tag default styles.</h4>
 
-List of known HTML tag default styles.
+<h5 align="center">Python port of npm package <a href="https://www.npmjs.com/package/html-styles" target="_blank">html-styles</a>.</h5>
 
-## What is this?
+<p align="center">
+  <a href="https://pypi.org/project/html-styles/">
+    <img src="https://badgen.net/pypi/v/html-styles" alt="Pypi Version">
+  </a>
+  <a href="https://pepy.tech/project/html-styles">
+    <img src="https://static.pepy.tech/badge/html-styles" alt="Downloads">
+  </a>
+</p>
+
+
+## 🤔 What is this?
 
 This is a list of default styles for HTML tags as defined by [W3C specification](https://www.w3.org/TR/html5/rendering.html).
 
 
-## Install
+## 💾 Install
 
 ```sh
 pip install html-styles
+
+# or
+
+poetry add html-styles
 ```
 
-## Use
+## ✨ How to Use
 
 ```py
 from HtmlStyles import html_styles
@@ -52,7 +66,7 @@ Yields:
 ```
 ## License
 
-[GPL][license] © Riverside Healthcare
-Ported from `html-styles` [MIT][license] © [Mario Nebl](https://github.com/marionebl)
+- [GPL][license] © Riverside Healthcare
+- Ported from `html-styles` [MIT][license] © [Mario Nebl](https://github.com/marionebl)
 
 [license]: LICENSE
