@@ -1,6 +1,6 @@
 {
   "name": "html-styles",
-  "version": "0.1.28",
+  "version": "0.1.29",
   "description": "List of known HTML tag default styles.",
   "main": "index.js",
   "private": true,
@@ -26,7 +26,7 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "9.0.6",
     "@semantic-release/npm": "10.0.6",
-    "@semantic-release/release-notes-generator": "11.0.7",
+    "@semantic-release/release-notes-generator": "12.0.0",
     "cz-conventional-changelog": "3.3.0",
     "semantic-release": "21.1.2"
   },
