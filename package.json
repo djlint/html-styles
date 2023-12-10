@@ -1,6 +1,6 @@
 {
   "name": "html-styles",
-  "version": "0.1.38",
+  "version": "0.1.39",
   "description": "List of known HTML tag default styles.",
   "main": "index.js",
   "private": true,
@@ -28,7 +28,7 @@
     "@semantic-release/npm": "11.0.1",
     "@semantic-release/release-notes-generator": "12.1.0",
     "cz-conventional-changelog": "3.3.0",
-    "semantic-release": "22.0.8"
+    "semantic-release": "22.0.10"
   },
   "config": {
     "commitizen": {
